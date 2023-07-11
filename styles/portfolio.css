@@ -1,98 +1,61 @@
-/* shared style */
-body{
-    font-family: 'Open Sans', sans-serif;
+*{
+    margin: 0;
+    padding: 0;
 }
-
-/* button styles */
-.btn-primary{
-
-    
-border-radius: 8px;
-background: #E55473;
-font-size: 20px;
-font-style: normal;
-color: white;
-font-weight: 500;
-border: 0;
-padding: 20px 43px;
-margin-right: 40px;
-/* background-position: left; */
-}
-
-
-/* nav related styles and header */
-nav{
-     margin: 0 60px; 
-}
-nav li{
-list-style: none;
-}
-
-/* header related */
-.header{
-    background-color: rgba(229, 84, 115, 0.10);
-}
-
-.banner{
-    padding: 3px 250px 30px 30px;
+.background{
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
+    background: rgba(229, 84, 115, 0.10);
+    /* padding-inline: 0px 500px 0 0px; */
+    padding: 10px 0px 0px 200px;
+    
+   
 }
-.banner .profile-picture{
-    width: 600px;
-    /* margin: 50px 50px 50px; */
-}
-.profile-picture{
-    background-position: right;
-    padding: 30px 30px 0px 150px;
-}
-
-.banner-greeting{
-    font-size: 80px;
-    /* padding:20px 100px 20px  ; */
-    /* margin-right: 50px; */
-    margin-bottom: 0;
-}
-.banner-discription{
-    font-size: 25px;
-    color: rgba(39, 39, 39, 0.60);
+.background-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-bottom: 1000px; */
 }
 
-/* about  featured section */
-.about{
-    /* padding: 130px; */
-    background: #FFF;
+.title{
+    font-size: 70px;
+    margin-bottom: 25px ;
+    /* font-weight: 8000px; */
+/* line-height: 400px; */
+    
 }
-.section-description{
-    color: rgba(39, 39, 39, 0.60);
-text-align: center;
+
+.make-samefor-all-paragraph{
+color: rgba(39, 39, 39, 0.60);
 font-family: Lato;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
 }
+.img-pro{
+    padding:  20px 10px 0 200px;
+}
 
-.section-title{
-    color: #272727;
-text-align: center;
+.all-button{
+    /* padding-right: 1000px; */
+    list-style: none;
+    /* font-display: flex; */
+    /* padding-inline-start: 100px; */
+    border-radius: 8px;
+background: #E55473;
+color: #FFF;
 /* font-family: Lato; */
-font-size: 40px;
-/* font-style: normal; */
-font-weight: 800;
-/* line-height: normal; */
-padding: 3px 20px;
-}
-
-#what-i-do-description{
-    padding: 20px 150px;
-}
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 10px;
+/* margin-bottom: 10000px; */
 
 
 
-/* main section */
-main{
-    max-width: 1140 px;
-    margin: 0 auto;
 }
