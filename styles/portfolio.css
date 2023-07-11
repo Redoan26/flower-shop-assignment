@@ -1,0 +1,43 @@
+/* shared style */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* button styles */
+.btn-primary{
+    /* color:#E55473; */
+    border-radius: 8px;
+background: #E55473;
+font-size: 20px;
+font-style: normal;
+color: white;
+font-weight: 500;
+border: 0;
+padding: 20px 43px;
+}
+
+/* nav related styles and header */
+nav{
+    /* margin: 0 200px; */
+}
+nav li{
+list-style: none;
+}
+
+/* header related */
+.header{
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.banner{
+    padding: 3px 250px 30px 30px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-picture{
+    width: 600px;
+}
+
+.banner-greeting{
+    font-size: 50px;
+}
