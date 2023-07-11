@@ -1,3 +1,5 @@
+                                            /* Heading First part */
+
 *{
     margin: 0;
     padding: 0;
@@ -29,15 +31,17 @@
 }
 
 .make-samefor-all-paragraph{
+    font-size: 25px;
 color: rgba(39, 39, 39, 0.60);
 font-family: Lato;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
+
 }
 .img-pro{
-    padding:  20px 10px 0 200px;
+    padding:  15px 200px 0 200px;
 }
 
 .all-button{
@@ -54,8 +58,25 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 padding: 10px;
+border: 0;
+border-radius: 5px;
+/* justify-content: space-between; */
 /* margin-bottom: 10000px; */
+}
 
-
-
+                                                   /* second part */
+.flower-concept{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 170px;
+}
+.head-of-flower-concept{
+    font-size: 40px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
 }
