@@ -61,7 +61,7 @@ list-style: none;
 
 /* about  featured section */
 .about{
-    padding: 130px;
+    /* padding: 130px; */
     background: #FFF;
 }
 .section-description{
@@ -82,4 +82,17 @@ font-size: 40px;
 /* font-style: normal; */
 font-weight: 800;
 /* line-height: normal; */
+padding: 3px 20px;
+}
+
+#what-i-do-description{
+    padding: 20px 150px;
+}
+
+
+
+/* main section */
+main{
+    max-width: 1140 px;
+    margin: 0 auto;
 }
