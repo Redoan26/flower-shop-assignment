@@ -1,4 +1,6 @@
-                                            /* Heading First part */
+
+                                            
+/* Heading First part */
 
 *{
     margin: 0;
@@ -139,30 +141,23 @@ border-radius: 300px 300px 0px 0px;
 
 .process-of-support{
     display: flex;
-    margin-top: 100px;
-    margin-left: 500px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    gap: 20px;
-    width: 1400px;
-   
-
-
-  /* /*   width: 1440px; */
-    height: 320px;
-    /* flex-shrink: 0; */
-
+    width: 1050px;
+    margin: 0 auto;
+    margin-top: 90px;
     border-radius: 8px;
-background: rgba(39, 39, 39, 0.05); 
+    padding: 30px;
+    background: rgba(39, 39, 39, 0.05);
 }
+
 .process-of-support-system{
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* margin-bottom: 100px; */
 }
 
-                                  /* part 4   promotional concept */
+/* part 4   promotional concept */
                                   
 #off{
     color: #E55473;
@@ -173,11 +168,10 @@ background: rgba(39, 39, 39, 0.05);
     align-items: center;
     margin-top: 200px;
     width: 1922px;
-
-  height: 200px;
-  flex-shrink: 0;
-  border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
 }
 
 .promotion-content{
@@ -270,33 +264,55 @@ margin-top: 10px;
  }
 
  .insta-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     margin-top: 20px;
-   
-   
+ }
+ .insta-img{
+    box-shadow: 0px 0px 30px #f16c98;
  }
 
 
-                                       /* /* part 6 concept of Deals  */
+                                       /*  part 6 concept of Deals  */
 .deal{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 1200px ;
-    height: 500px;
+    width: 1378px ;
+    height: 448px;
     margin-top: 150px;
-    margin-left: 500px;
+    margin-left: 250px;
     gap: 30px;
     border-radius: 8px;
     background: url(../asset/Rectangle\ 9.png);
     background-color: rgba(129,129,129,0.74);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
-}       
+}    
+
+#email{
+    width: 260px;
+    height: 30px;
+    border: none;
+    background: white;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+#button{
+    padding: 6px;
+    background:#E55473;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
 
 
-                                          /*  part 7 and last part of my assignment */
+/*  part 7 and last part of my assignment */
  
     .conclusition{
         display: flex;
