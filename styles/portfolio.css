@@ -132,4 +132,29 @@ border-radius: 300px 300px 0px 0px;
     left: 25%;
 }
 
+/* Part 3, The selling process */
 
+.process-of-support{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 500px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    width: 1400px;
+   
+
+
+  /* /*   width: 1440px; */
+    height: 320px;
+    /* flex-shrink: 0; */
+
+    border-radius: 8px;
+background: rgba(39, 39, 39, 0.05); 
+}
+.process-of-support-system{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
