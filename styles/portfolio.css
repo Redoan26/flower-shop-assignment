@@ -15,7 +15,7 @@
    
 }
 .background-content{
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -132,11 +132,11 @@ border-radius: 300px 300px 0px 0px;
     left: 25%;
 }
 
-/* Part 3, The selling process */
+                                          /* Part 3, The selling process */
 
 .process-of-support{
     display: flex;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-left: 500px;
     justify-content: space-around;
     align-items: center;
@@ -156,5 +156,80 @@ background: rgba(39, 39, 39, 0.05);
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
+}
+
+                                  /* part 4   promotional concept */
+                                  
+#off{
+    color: #E55473;
+}                      
+.promotion-advertise{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+    width: 1922px;
+
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+}
+
+.promotion-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* max-width: 25%; */
+    
+
+}
+.c1, c2, c3{
+    margin-bottom: 20px;
+}
+
+.c2{
+    /* text-align: center; */
+    /* color: #272727; */
+    font-size: 25px;
+color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+
+}
+
+
+
+.c3{
+      /* display: inline-flex;
+      padding: 20px 40px;
+      align-items: flex-start;
+      gap: 10px;
+ */
+
+
+       
+    list-style: none;
+    display: inline-flex;
+    border-radius: 8px;
+background: #E55473;
+color: #FFF;
+/* font-family: Lato; */
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 10px;
+border: 0;
+border-radius: 5px;
+/* justify-content: space-between; */
+/* margin-bottom: 10000px; */
+align-items: flex-start;
+gap: 10px;
+margin-top: 10px;
+      
 }
