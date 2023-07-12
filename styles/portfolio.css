@@ -86,8 +86,9 @@ border-radius: 5px;
        justify-content:space-between;
        align-items: center;
       /* flex-direction: column; */
-       margin-top: 100px;
+       margin-top: 50px;
        gap: 100px;
+       
 }
 
 .pink-flower{
@@ -95,19 +96,21 @@ border-radius: 5px;
     /* border-radius: 5px; */
     /* background: #E55473; */
     /* box-shadow: 0px 6px 50px 0px #E55473; */
-    position: relative;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    flex-direction: column;
+    /* position: relative; */
+    /* display: flex; */
+    /* justify-content:space-between; */
+    /* align-items: center; */
+    /* flex-direction: column; */
     width: 300px;
     height: 500px;
+    position: relative;
     /* margin-top: 100px; */
 }
  .pink-flower img{
-    bottom: 0;
     /* position: absolute; */
+    bottom: 100px;
     height: 400px;
+    width: 300px;
 }
 
 .pink-flower .image-one{
@@ -122,4 +125,11 @@ border-radius: 300px 300px 0px 0px;
     background: rgba(71,125,17,0.15);
     border-radius: 300px 300px 0px 0px;
 }
+
+.pink-flower h3{
+    position: absolute;
+    bottom: 30px;
+    left: 25%;
+}
+
 
